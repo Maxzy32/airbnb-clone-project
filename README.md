@@ -193,3 +193,29 @@ Payment endpoints will be secured with strong validation and encryption to ensur
 - 💳 **Securing Payments**: Ensure the safety and trustworthiness of financial transactions.
 - 🧱 **Preventing Abuse**: Mitigate spamming, automated attacks, and misuse of APIs.
 
+
+
+## 🔄 CI/CD Pipeline
+
+### What is CI/CD?
+
+**CI/CD** stands for **Continuous Integration** and **Continuous Deployment/Delivery**. It is a development practice that allows teams to automate the process of integrating code, running tests, and deploying applications.
+
+- **Continuous Integration** ensures that every change made to the codebase is automatically tested and integrated into the main branch without conflicts.
+- **Continuous Deployment/Delivery** automatically delivers tested code to production or staging environments, reducing manual effort and deployment errors.
+
+### Why CI/CD is Important for This Project
+
+Implementing a CI/CD pipeline will:
+- Enable faster and safer releases of new features and bug fixes.
+- Help maintain a high-quality codebase by running automated tests on every commit.
+- Reduce manual deployment work and minimize downtime.
+- Make it easier to collaborate in a team environment.
+
+### Tools to Be Used
+
+- **GitHub Actions**: Automate workflows such as building, testing, and deploying code directly from the GitHub repository.
+- **Docker**: Containerize the application for consistency across development, staging, and production environments.
+- **Heroku / Vercel / Render**: Platforms to automatically deploy backend and frontend apps when new changes are pushed.
+- **Postman/Newman**: For automating API test scripts as part of the CI flow.
+
