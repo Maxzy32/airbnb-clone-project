@@ -133,3 +133,30 @@ Records payment transactions for bookings.
 - A **Booking** belongs to one **User** and one **Property**.
 - A **Payment** is linked to a **Booking**.
 
+
+
+## 🧩 Feature Breakdown
+
+The AirBnB Clone project is structured around several core features that replicate the functionality of the real AirBnB platform. Each feature plays an important role in delivering a complete user experience.
+
+### 👥 User Management
+This feature allows users to register, log in, and manage their profiles. It ensures secure authentication and enables role-based access for both guests and hosts.
+
+### 🏡 Property Management
+Hosts can list properties by providing details such as title, description, location, price, and images. This feature enables property owners to manage their listings and updates.
+
+### 📆 Booking System
+Guests can book available properties for specific dates. The system checks for availability, calculates total costs, and stores booking records, ensuring a smooth reservation process.
+
+### 💳 Payment Integration
+Enables users to pay for bookings securely using various payment methods. This ensures that transactions are safely recorded and linked to the correct bookings.
+
+### 💬 Review & Rating System
+After a stay, guests can leave reviews and ratings on properties. This helps maintain quality control and gives feedback to future users.
+
+### 🔍 Search & Filter
+Allows users to search for properties based on location, price range, availability, and other filters. This enhances user experience by helping them find suitable listings quickly.
+
+### 📱 Responsive UI
+Ensures that the application is fully functional and visually appealing across different screen sizes, including mobile devices, tablets, and desktops.
+
