@@ -47,3 +47,29 @@ Coordinates the team, manages timelines, ensures everyone is aligned with the pr
 ### 🎯 UI/UX Designer
 Creates wireframes, prototypes, and user journey maps. Ensures that the design is both visually appealing and easy to use.
 
+
+## 🧰 Technology Stack
+
+Below is a list of technologies used in the AirBnB Clone Project along with their purposes:
+
+### 🐍 Django
+A high-level Python web framework that simplifies the process of building secure and maintainable backends. It is used to create RESTful APIs and manage server-side logic.
+
+### 🐘 PostgreSQL
+An advanced open-source relational database system. It stores user data, property listings, bookings, reviews, and more.
+
+### ⚛️ React.js
+A JavaScript library for building fast and interactive user interfaces. It manages the frontend components and handles routing, forms, and state management.
+
+### 🎨 Tailwind CSS
+A utility-first CSS framework that helps in designing modern and responsive interfaces quickly with pre-built utility classes.
+
+### 🔁 GraphQL
+An API query language used to request only the needed data from the server, improving performance and flexibility compared to traditional REST APIs.
+
+### 🐙 Git & GitHub
+Version control and collaboration tools used to manage source code changes, coordinate teamwork, and store the project repository.
+
+### 🚀 Vercel / Heroku / Render
+Cloud platforms used to deploy and host the frontend and backend services, making the project accessible online.
+
