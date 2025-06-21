@@ -160,3 +160,36 @@ Allows users to search for properties based on location, price range, availabili
 ### 📱 Responsive UI
 Ensures that the application is fully functional and visually appealing across different screen sizes, including mobile devices, tablets, and desktops.
 
+
+
+
+
+## 🔐 API Security
+
+Security is a critical aspect of any application that handles sensitive user data and financial transactions. The Airbnb Clone project will implement several key security measures to ensure data privacy, integrity, and protection from malicious attacks.
+
+### ✅ Authentication
+We will use token-based authentication (such as JWT) to verify user identities. This ensures that only registered users can access restricted endpoints, such as booking a property or viewing personal data.
+
+### ✅ Authorization
+Role-based access control (RBAC) will be used to restrict actions based on user roles (guest vs. host vs. admin). For example, only hosts can manage listings, and only the booking user can cancel a reservation.
+
+### ✅ Rate Limiting
+To prevent abuse and denial-of-service (DoS) attacks, the API will implement rate limiting. This limits how many requests a user can make in a specific time frame.
+
+### ✅ Data Validation & Sanitization
+All incoming API data will be validated and sanitized to prevent SQL injection, cross-site scripting (XSS), and other injection attacks.
+
+### ✅ HTTPS & Secure Headers
+The application will enforce HTTPS for encrypted communication. Additionally, HTTP security headers (like `Content-Security-Policy`, `X-Content-Type-Options`, etc.) will be configured to reduce common vulnerabilities.
+
+### ✅ Secure Payments
+Payment endpoints will be secured with strong validation and encryption to ensure sensitive financial data is handled safely and never exposed.
+
+---
+
+**Why This Matters:**
+- 🛡️ **Protecting User Data**: Prevent unauthorized access to personal details, login credentials, and booking history.
+- 💳 **Securing Payments**: Ensure the safety and trustworthiness of financial transactions.
+- 🧱 **Preventing Abuse**: Mitigate spamming, automated attacks, and misuse of APIs.
+
